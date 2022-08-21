@@ -5,6 +5,7 @@ body
     }
     section{
         display: flex;
+        margin-bottom: 100px;
     }
     .top-banner{
         background-image: url(image/top-banner.png);
@@ -13,6 +14,9 @@ body
     .half-width{
         width: 50%;
         padding: 5%;
+    }
+    p{
+        color: #888;
     }
     .link-btn{
         text-decoration: none;
@@ -30,4 +34,10 @@ body
     }
     .orange-color{
         color: orange;
+    }
+    .dream-big{
+        background-image: url(image/dream-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-position-y: 300px;
     }
